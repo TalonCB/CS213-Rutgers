@@ -103,7 +103,7 @@ What is the output of the following code segment:
 public static void main(String[] args) {
    B b = new E();
    b.x = 5;
-   System.out.println(b);
+   System.out.println(b.toString());
 }
 ```
 
@@ -146,7 +146,7 @@ What is the output of the following code segment, which is in a different class 
 ```java
 public static void main(String[] args) {
    B b = new E();
-   System.out.println(b);
+   System.out.println(b.toString());
 }
 ```
 
