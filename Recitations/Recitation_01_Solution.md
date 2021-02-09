@@ -304,7 +304,8 @@ class Foo {
 
 public class Test {
    public static void main(String[] args) {
-      new Foo().bar(new Child());
+      Foo foo = new Foo();
+      foo.bar(new Child());
    }
 }
 ```
