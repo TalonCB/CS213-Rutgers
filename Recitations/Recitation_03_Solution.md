@@ -123,7 +123,7 @@ public interface I {
 
 ```java
 public interface J {
-   void stuff();
+   int stuff();
 }
 ```
 
